@@ -1,0 +1,25 @@
+header {
+  background-color: #141414;
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 0;
+    ul {
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      li {
+        font-weight: 300;
+        list-style: none;
+        color: #9ca3af;
+        &:hover {
+          color: rgb(211, 211, 211);
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}

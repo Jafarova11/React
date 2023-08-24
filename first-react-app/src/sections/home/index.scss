@@ -1,0 +1,28 @@
+section {
+  background-color: #171717;
+  padding: 8% 0;
+  .home {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    .left,
+    .right {
+      width: 50%;
+    }
+    .left {
+      h6 {
+        font-size: 16px;
+        font-weight: 300;
+        color: #eab308;
+      }
+      h1 {
+        font-size: 64px;
+        color: white;
+      }
+      p {
+        font-size: 20px;
+        color: #716d69;
+      }
+    }
+  }
+}
