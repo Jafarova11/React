@@ -1,5 +1,6 @@
 import React from "react";
 import "../home/index.scss";
+import Button from "../../components/button";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
             the majority havesuffered alteration in some form, by injected
             humour.
           </p>
+          <Button />
         </div>
         <div className="right">
           <img src="../../images/img-1.jpg" alt="" />

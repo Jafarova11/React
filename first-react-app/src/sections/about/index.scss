@@ -1,0 +1,32 @@
+.about-section {
+  background-color: #0a0a0a;
+  padding: 8% 0;
+  .about {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    .left,
+    .right {
+      width: 50%;
+    }
+    .right {
+      h1 {
+        font-size: 48px;
+        color: white;
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        margin-bottom: -30px;
+        p {
+          font-size: 48px;
+          color: #eab308;
+        }
+      }
+      p {
+        font-size: 17px;
+        color: #716d69;
+      }
+    }
+  }
+}
