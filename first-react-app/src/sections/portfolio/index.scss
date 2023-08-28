@@ -1,0 +1,34 @@
+.portfolio-section {
+  background-color: #0a0a0a;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    .top {
+      max-width: 700px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .my-portfolio {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        margin-bottom: -60px;
+        h4 {
+          &:nth-child(1) {
+            color: white;
+          }
+          color: #eab308;
+          font-size: 48px;
+        }
+      }
+      p {
+        color: #585c5f;
+        font-size: 17px;
+      }
+    }
+  }
+}

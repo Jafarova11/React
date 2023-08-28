@@ -3,6 +3,8 @@ import Header from "./layouts/header";
 import Home from "./sections/home";
 import About from "./sections/about";
 import Service from "./sections/service";
+import Portfolio from "./sections/portfolio";
+import Resume from "./sections/resume";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Home />
       <About />
       <Service />
+      <Portfolio />
+      <Resume />
     </div>
   );
 }
